@@ -1,0 +1,39 @@
+[
+  '2024-12-17',
+  '2024-12-18',
+  '2024-12-19',
+  '2024-12-20',
+  '2024-12-21'
+]
+Error occurred during request getTickets: TypeError: Cannot read properties of null (reading 'ticketsAndVouchers')
+    at file:///home/amine/Documents/oncfBooker/index.js:38:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Promise.all (index 0)
+    at async file:///home/amine/Documents/oncfBooker/index.js:45:1
+Error occurred during request getTickets: TypeError: Cannot read properties of null (reading 'ticketsAndVouchers')
+    at file:///home/amine/Documents/oncfBooker/index.js:38:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Promise.all (index 1)
+    at async file:///home/amine/Documents/oncfBooker/index.js:45:1
+Error occurred during request getTickets: TypeError: Cannot read properties of null (reading 'ticketsAndVouchers')
+    at file:///home/amine/Documents/oncfBooker/index.js:38:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Promise.all (index 4)
+    at async file:///home/amine/Documents/oncfBooker/index.js:45:1
+Error occurred during request getTickets: TypeError: Cannot read properties of null (reading 'ticketsAndVouchers')
+    at file:///home/amine/Documents/oncfBooker/index.js:38:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Promise.all (index 2)
+    at async file:///home/amine/Documents/oncfBooker/index.js:45:1
+file:///home/amine/Documents/oncfBooker/index.js:50
+        if (err) throw err;
+                 ^
+
+[Error: ENOENT: no such file or directory, open './tickets/2024-12-17.pdf'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: './tickets/2024-12-17.pdf'
+}
+
+Node.js v23.0.0

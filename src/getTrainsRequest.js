@@ -20,7 +20,7 @@ async function sendPostRequest(date) {
         "kids":0,
         "listVoyageur":[
            {
-              "numeroClient":"191179524003487",
+              "numeroClient":"",
               "codeTarif":"AY",
               "codeProfilDemographique":"3",
               "dateNaissance":null
